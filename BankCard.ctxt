@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BankCard
+comment1.params=BalanceAmount\ Card_Id\ Bank_Account\ Issuer_Bank
+comment1.target=BankCard(int,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=A\ constructor\ method\ that\ initializes\ the\ class\r\nvariables\ using\ the\ parameters\ passed\ in.
+comment2.params=
+comment2.target=int\ getCard_Id()
+comment2.text=\ Child\ classes\ are\ able\ to\ access\ the\ values\ of\ the\ private\ \r\n\ \ \ \ attributes\ through\ the\ public\ getter\ methods\ such\ as\ \r\n\ \ \ \ "getcard_id",\ "getBank_Account",\ "getBalanceAmount",\ \r\n"getClient_name",\ and\ "Issuer_Bank".
+comment3.params=
+comment3.target=java.lang.String\ getBank_Account()
+comment4.params=
+comment4.target=int\ getBalanceAmount()
+comment5.params=
+comment5.target=java.lang.String\ getClient_Name()
+comment6.params=
+comment6.target=java.lang.String\ getIssuer_Bank()
+comment7.params=Client_Name
+comment7.target=void\ setClient_name(java.lang.String)
+comment7.text=\ public\ setter\ methods,\ such\ as\ "setClient_name"\ \r\n\ \ \ \ \ \ and\ "setBalanceAmount,"\ that\ allow\ other\ classes\r\nto\ change\ the\ values\ of\ the\ private\ attributes.
+comment8.params=BalanceAmount
+comment8.target=void\ setBalanceAmount(int)
+comment9.params=
+comment9.target=void\ display()
+comment9.text=\ A\ public\ method\ "display"\ which\ prints\ the\ values\ of\ the\ attributes,\r\n\ \ \ \ \ but\ \ only\ if\ the\ "Client_name"\ attribute\ \ is\ not\ empty.\ \ If\ the\ \r\n"Client_name"\ attribute\ is\ empty,\ the\ method\ will\ print\ "Error".
+numComments=10

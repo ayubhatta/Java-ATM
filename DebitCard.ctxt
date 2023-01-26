@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment1.params=BalanceAmount\ Card_Id\ Bank_Account\ Issuer_Bank\ Client_Name\ PIN_Number
+comment1.target=DebitCard(int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getPIN_Number()
+comment2.text=\ \ Other\ classes\ can\ access\ the\ values\ of\ the\ private\ attributes\ through\ the\ \r\n\ \ \ \ \ \ \ \ public\ getter\ methods\ such\ as\ "getPIN_Number",\ "getWithdrawal_Amount",\ \r\n"getDate_Of_Withdrawal"\ and\ "gethas_Withdrawan"
+comment3.params=
+comment3.target=int\ getWithdrawal_Amount()
+comment4.params=
+comment4.target=java.lang.String\ getDate_Of_Withdrawal()
+comment5.params=
+comment5.target=boolean\ getHas_Withdrawn()
+comment6.params=Withdrawal_Amount
+comment6.target=void\ setWithdrawal_Amount(int)
+comment6.text=\ A\ public\ setter\ method\ called\ "setWithdrawal_amount"\ that\ \r\nallows\ other\ classes\ to\ change\ the\ value\ of\ the\ Withdrawal_Amount\ attribute.
+comment7.params=Withdrawal_Amount\ Date_Of_Withdrawal\ PIN_Number
+comment7.target=void\ withdraw(int,\ java.lang.String,\ int)
+comment7.text=\ Method\ "withdraw"\ that\ allows\ the\ \ user\ to\ withdraw\ funds\ from\ the\ bank\ account.\ \r\n\ \ \ \ \ \ \ It\ \ verifies\ that\ \ the\ entered\ PIN\ number\ is\ correct\ \ and\ that\ the\ \ account\ has\ \r\n\ \ \ \ \ \ \ sufficient\ funds\ for\ the\ withdrawal.\ If\ the\ withdrawal\ is\ successful,\ the\ method\ \r\n\ \ \ \ \ \ \ updates\ the\ balance,\ withdrawal\ amount\ and\ withdrawal\ date,\ otherwise\ it\ prints\ \r\nan\ error\ message.
+comment8.params=
+comment8.target=void\ display()
+numComments=9
